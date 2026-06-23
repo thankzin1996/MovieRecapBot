@@ -3,7 +3,7 @@
 ‎import google.generativeai as genai
 ‎
 ‎၁။ လျှို့ဝှက်ကီးများ (Secrets) ကို ပြန်ခေါ်ယူခြင်း
-‎TELEGRAM_TOKEN = os.environ.get("AAHRMLQ2U7wmwMwEBJV9b6iH3Ji5")
+‎TELEGRAM_TOKEN = os.environ.get("8960371678:AAHRMLQ2U7wmwMwEBJV9b6iH3Ji5-uR3ptA")
 ‎GEMINI_API_KEY = os.environ.get("AQ.Ab8RN6IV-8LOPHUBHyFr8Z5a8Gj1Wii4ZydvvlABQ7-j-n7BKQ")
 ‎
 ‎၂။ Gemini AI ကို ချိတ်ဆက်ခြင်း
@@ -11,7 +11,7 @@
 ‎model = genai.GenerativeModel('gemini-1.5-pro')
 ‎
 ‎၃။ Telegram Bot ကို တည်ဆောက်ခြင်း
-‎bot = telebot.TeleBot(AAHRMLQ2U7wmwMwEBJV9b6iH3Ji5)
+‎bot = telebot.TeleBot(8960371678:AAHRMLQ2U7wmwMwEBJV9b6iH3Ji5-uR3ptA)
 ‎
 ‎၄။ /start ဟု နှိပ်လိုက်လျှင် Bot မှ ပြန်လည်နှုတ်ဆက်မည့် စာ
 ‎@bot.message_handler(commands=['start', 'help'])
